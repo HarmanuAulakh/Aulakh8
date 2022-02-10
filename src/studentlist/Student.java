@@ -13,17 +13,24 @@ public class Student {
     
     private String studentId;
     private String studentName;
+    private String StudentAge;
     
-    public Student(String studentId,String studentName){
+    public Student(String studentId,String studentName , String StudentAge){
         this.studentId = studentId;
-        this.studentName=studentName;                
+        this.studentName=studentName;
+        this.StudentAge=StudentAge;
+        
+        
     }
+
     public String getStudentId() {
         return studentId;
     }
+
     public void setStudentId(String studentId) {
         this.studentId = studentId;
     }
+
     public String getStudentName() {
         return studentName;
     }
@@ -31,6 +38,16 @@ public class Student {
     public void setStudentName(String studentName) {
         this.studentName = studentName;
     }
+
+    public String getStudentAge() {
+        return StudentAge;
+    }
+
+    public void setStudentAge(String StudentAge) {
+        this.StudentAge = StudentAge;
+    }
+    
+     
     
     
     
